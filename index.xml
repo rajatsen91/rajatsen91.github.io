@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>IContextual Bandits with Stochastic Experts</title>
+      <link>https://rajatsen91.github.io/publication/stochexp/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rajatsen91.github.io/publication/stochexp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Model-Powered Conditional Independence Test</title>
       <link>https://rajatsen91.github.io/publication/modelpowered/</link>
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
