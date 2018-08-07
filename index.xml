@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>[Preprint] Importance weighted generative networks</title>
+      <link>https://rajatsen91.github.io/publication/igan/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rajatsen91.github.io/publication/igan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Preprint] Mimic and Classify : A meta-algorithm for Conditional Independence Testing</title>
+      <link>https://rajatsen91.github.io/publication/mimic/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rajatsen91.github.io/publication/mimic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Multi-Fidelity Black-Box Optimization with Hierarchical Partitions</title>
       <link>https://rajatsen91.github.io/publication/mcts1/</link>
       <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
