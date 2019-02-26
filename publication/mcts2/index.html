@@ -34,7 +34,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://rajatsen91.github.io/publication/modelpowered/">
+  <link rel="canonical" href="https://rajatsen91.github.io/publication/mcts2/">
 
   <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
@@ -48,7 +48,7 @@ MathJax.Hub.Config({
 </script>
 
 
-  <title>Model-Powered Conditional Independence Test | Home Page of Rajat Sen</title>
+  <title>Noisy Blackbox Optimization with Multi-Fidelity Queries: A Tree Search Approach | Home Page of Rajat Sen</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -111,10 +111,10 @@ MathJax.Hub.Config({
   
 
   <div class="container pub-title">
-    <h1 itemprop="name">Model-Powered Conditional Independence Test</h1>
+    <h1 itemprop="name">Noisy Blackbox Optimization with Multi-Fidelity Queries: A Tree Search Approach</h1>
     <span class="pub-authors" itemprop="author">
       
-      Rajat Sen, Ananda Theertha Suresh, Karthikeyan Shanmugam, Alex Dimakis, Sanjay Shakkottai
+      Rajat Sen, Kirthevasan Kandasamy, Sanjay Shakkottai
       
     </span>
     <span class="pull-right">
@@ -123,35 +123,35 @@ MathJax.Hub.Config({
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2frajatsen91.github.io%2fpublication%2fmodelpowered%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2frajatsen91.github.io%2fpublication%2fmcts2%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Model-Powered%20Conditional%20Independence%20Test&amp;url=https%3a%2f%2frajatsen91.github.io%2fpublication%2fmodelpowered%2f"
+         href="https://twitter.com/intent/tweet?text=Noisy%20Blackbox%20Optimization%20with%20Multi-Fidelity%20Queries%3a%20A%20Tree%20Search%20Approach&amp;url=https%3a%2f%2frajatsen91.github.io%2fpublication%2fmcts2%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2frajatsen91.github.io%2fpublication%2fmodelpowered%2f&amp;title=Model-Powered%20Conditional%20Independence%20Test"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2frajatsen91.github.io%2fpublication%2fmcts2%2f&amp;title=Noisy%20Blackbox%20Optimization%20with%20Multi-Fidelity%20Queries%3a%20A%20Tree%20Search%20Approach"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2frajatsen91.github.io%2fpublication%2fmodelpowered%2f&amp;title=Model-Powered%20Conditional%20Independence%20Test"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2frajatsen91.github.io%2fpublication%2fmcts2%2f&amp;title=Noisy%20Blackbox%20Optimization%20with%20Multi-Fidelity%20Queries%3a%20A%20Tree%20Search%20Approach"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Model-Powered%20Conditional%20Independence%20Test&amp;body=https%3a%2f%2frajatsen91.github.io%2fpublication%2fmodelpowered%2f">
+         href="mailto:?subject=Noisy%20Blackbox%20Optimization%20with%20Multi-Fidelity%20Queries%3a%20A%20Tree%20Search%20Approach&amp;body=https%3a%2f%2frajatsen91.github.io%2fpublication%2fmcts2%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -168,7 +168,7 @@ MathJax.Hub.Config({
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">We consider the problem of non-parametric Conditional Independence testing (CI testing) for continuous random variables. Given i.i.d samples from the joint distribution f(x,y,z) of continuous random vectors X,Y and Z, we determine whether X⊥Y|Z. We approach this by converting the conditional independence test into a classification problem. This allows us to harness very powerful classifiers like gradient-boosted trees and deep neural networks. These models can handle complex probability distributions and allow us to perform significantly better compared to the prior state of the art, for high-dimensional CI testing. The main technical challenge in the classification problem is the need for samples from the conditional product distribution fCI(x,y,z)=f(x|z)f(y|z)f(z) -- the joint distribution if and only if X⊥Y|Z. -- when given access only to i.i.d. samples from the true joint distribution f(x,y,z). To tackle this problem we propose a novel nearest neighbor bootstrap procedure and theoretically show that our generated samples are indeed close to fCI in terms of total variational distance. We then develop theoretical results regarding the generalization bounds for classification for our problem, which translate into error bounds for CI testing. We provide a novel analysis of Rademacher type classification bounds in the presence of non-i.i.d near-independent samples. We empirically validate the performance of our algorithm on simulated and real datasets and show performance gains over previous methods.</p>
+  <p class="pub-abstract" itemprop="text">We study the problem of black-box optimization of a noisy function in the presence of low-cost approximations or fidelities, which is motivated by problems like hyper-parameter tuning. In hyper-parameter tuning evaluating the black-box function at a point involves training a learning algorithm on a large data-set at a particular hyper-parameter and evaluating the validation error. Even a single such evaluation can be prohibitively expensive. Therefore, it is beneficial to use low-cost approximations, like training the learning algorithm on a sub-sampled version of the whole data-set. These low-cost approximations/fidelities can however provide a biased and noisy estimate of the function value. In this work, we incorporate the multi-fidelity setup in the powerful framework of noisy black-box optimization through tree-like hierarchical partitions. We propose a multi-fidelity bandit based tree-search algorithm for the problem and provide simple regret bounds for our algorithm. Finally, we validate the performance of our algorithm on real and synthetic datasets, where it outperforms several benchmarks.</p>
 
   
 
@@ -177,7 +177,7 @@ MathJax.Hub.Config({
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">Accepted in NIPS 2017</div>
+        <div class="col-xs-12 col-sm-9">AISTATS 2019</div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -190,7 +190,7 @@ MathJax.Hub.Config({
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          December, 2017
+          February, 2019
         </div>
       </div>
     </div>
@@ -210,22 +210,14 @@ MathJax.Hub.Config({
 
 
 
-<a class="btn btn-primary btn-outline" href="https://arxiv.org/pdf/1709.06138">
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/pdf/1810.10482.pdf">
   PDF
 </a>
 
 
-<a class="btn btn-primary btn-outline" href="https://rajatsen91.github.io/pdf/CIposter.pdf">
-  Slides
-</a>
 
 
-<a class="btn btn-primary btn-outline" href="https://www.youtube.com/watch?v=w6-yib0JUOk">
-  Video
-</a>
-
-
-<a class="btn btn-primary btn-outline" href="https://github.com/rajatsen91/CCIT.git">
+<a class="btn btn-primary btn-outline" href="https://github.com/rajatsen91/MFTreeSearchCV">
   Code
 </a>
 
@@ -251,13 +243,10 @@ MathJax.Hub.Config({
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://rajatsen91.github.io/publication/impband/"><span
-      aria-hidden="true">&larr;</span> Identifying Best Interventions through Online Importance Sampling</a></li>
+    <li class="previous"><a href="https://rajatsen91.github.io/publication/igan/"><span
+      aria-hidden="true">&larr;</span> [Preprint] Importance weighted generative networks</a></li>
     
 
-    
-    <li class="next"><a href="https://rajatsen91.github.io/publication/stochexp/">Contextual Bandits with Stochastic Experts <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>

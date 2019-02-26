@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Noisy Blackbox Optimization with Multi-Fidelity Queries: A Tree Search Approach</title>
+      <link>https://rajatsen91.github.io/publication/mcts2/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rajatsen91.github.io/publication/mcts2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>[Preprint] Importance weighted generative networks</title>
       <link>https://rajatsen91.github.io/publication/igan/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
@@ -500,7 +509,9 @@ Below is an automatically generated list of all my blog posts!
       <pubDate>Wed, 20 Apr 2016 10:00:00 +0000</pubDate>
       
       <guid>https://rajatsen91.github.io/post/writing-markdown-latex/</guid>
-      <description>&lt;p&gt;Content can be written using &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt;, &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt;, and &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34; target=&#34;_blank&#34;&gt;Hugo Shortcodes&lt;/a&gt;. Additionally, HTML may be used for advanced formatting. This article gives an overview of the most common formatting options.&lt;/p&gt;
+      <description>&lt;p&gt;Content can be written using &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt;, &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt;, and &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34; target=&#34;_blank&#34;&gt;Hugo Shortcodes&lt;/a&gt;. Additionally, HTML may be used for advanced formatting.&lt;/p&gt;
+
+&lt;p&gt;This article gives an overview of the most common formatting options.&lt;/p&gt;
 
 &lt;h2 id=&#34;sub-headings&#34;&gt;Sub-headings&lt;/h2&gt;
 
@@ -582,7 +593,7 @@ Strikethrough with ~~two tildes~~.
 [^1]: Footnote example.
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;I have more &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; to say.&lt;/p&gt;
+&lt;p&gt;I have more &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; to say.&lt;/p&gt;
 
 &lt;h2 id=&#34;code-highlighting&#34;&gt;Code highlighting&lt;/h2&gt;
 
@@ -888,15 +899,6 @@ With Jekyll, something that looked like&lt;/p&gt;
 
 &lt;p&gt;Alexandre Normand migrated his website from Jekyll to Hugo in less than a day. You can see all his changes by looking at this GitHub &lt;a href=&#34;https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610&#34; target=&#34;_blank&#34;&gt;diff&lt;/a&gt;. However, bear in mind that this example is &lt;strong&gt;not specific to the Academic theme nor does it use the latest version of Hugo&lt;/strong&gt;.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Si-dfa: Sub-expression integrated deterministic finite automata for deep packet inspection</title>
-      <link>https://rajatsen91.github.io/publication/sidfa/</link>
-      <pubDate>Mon, 08 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://rajatsen91.github.io/publication/sidfa/</guid>
-      <description></description>
     </item>
     
   </channel>
