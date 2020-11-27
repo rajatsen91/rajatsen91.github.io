@@ -2,101 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home Page of Rajat Sen on Home Page of Rajat Sen</title>
-    <link>https://rajatsen91.github.io/</link>
+    <link>https://rajatsen91.github.io/index.xml</link>
     <description>Recent content in Home Page of Rajat Sen on Home Page of Rajat Sen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Rajat Sen</copyright>
-    <lastBuildDate>Mon, 17 Apr 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Noisy Blackbox Optimization with Multi-Fidelity Queries: A Tree Search Approach</title>
-      <link>https://rajatsen91.github.io/publication/mcts2/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://rajatsen91.github.io/publication/mcts2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>[Preprint] Importance weighted generative networks</title>
-      <link>https://rajatsen91.github.io/publication/igan/</link>
-      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://rajatsen91.github.io/publication/igan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>[Preprint] Mimic and Classify : A meta-algorithm for Conditional Independence Testing</title>
+      <title>Please look at my google scholar profile.</title>
       <link>https://rajatsen91.github.io/publication/mimic/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://rajatsen91.github.io/publication/mimic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multi-Fidelity Black-Box Optimization with Hierarchical Partitions</title>
-      <link>https://rajatsen91.github.io/publication/mcts1/</link>
-      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://rajatsen91.github.io/publication/mcts1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Contextual Bandits with Stochastic Experts</title>
-      <link>https://rajatsen91.github.io/publication/stochexp/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://rajatsen91.github.io/publication/stochexp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Model-Powered Conditional Independence Test</title>
-      <link>https://rajatsen91.github.io/publication/modelpowered/</link>
-      <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://rajatsen91.github.io/publication/modelpowered/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Identifying Best Interventions through Online Importance Sampling</title>
-      <link>https://rajatsen91.github.io/publication/impband/</link>
-      <pubDate>Wed, 09 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://rajatsen91.github.io/publication/impband/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Contextual Bandits with Latent Confounders: An NMF Approach</title>
-      <link>https://rajatsen91.github.io/publication/latentcontextual/</link>
-      <pubDate>Sat, 22 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://rajatsen91.github.io/publication/latentcontextual/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Regret of Queueing Bandits</title>
-      <link>https://rajatsen91.github.io/publication/queregret/</link>
-      <pubDate>Sat, 10 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://rajatsen91.github.io/publication/queregret/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Detecting Sponsored Recommendations</title>
-      <link>https://rajatsen91.github.io/publication/detspon/</link>
-      <pubDate>Fri, 18 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://rajatsen91.github.io/publication/detspon/</guid>
       <description></description>
     </item>
     
