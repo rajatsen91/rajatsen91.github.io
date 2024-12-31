@@ -9,7 +9,8 @@ twitter_username: rsen91
 github_username: rajatsen91
 
 # Build settings
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "default"
 locale: "en-US"
 repository: "rajatsen91/rajatsen91.github.io" # Replace with your GitHub username/repo
