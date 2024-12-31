@@ -1,0 +1,72 @@
+title: Homepage of Rajat Sen
+name: "Rajat Sen"
+email: rsen91@gmail.com
+description: >- 
+  This is the home page of Rajat Sen who is an AI Researcher.
+baseurl: "" 
+url: "https://rajatsen91.github.io" # Replace with your actual domain
+twitter_username: rsen91
+github_username: rajatsen91
+
+# Build settings
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default"
+locale: "en-US"
+repository: "rajatsen91/rajatsen91.github.io" # Replace with your GitHub username/repo
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+author:
+  name: "Rajat Sen"
+  avatar: "/assets/images/profile.png"
+  bio: "AI Researcher"
+  links:
+    - label: "Email"  # Add this block
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:rsen91@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/rajatsen91"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=YzsCLBoAAAAJ"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/rajat-sen-a8702417"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/rajatsen91"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=YzsCLBoAAAAJ"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/rajat-sen-a8702417"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
