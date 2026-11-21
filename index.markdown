@@ -3,7 +3,7 @@ layout: home
 author_profile: true
 ---
 
-I am a Research Scientist at Google Research, MTV. I am currently excited about pretrained models for time-series forecasting as well as other less explored modalities. I am one of the creators of [TimesFM](https://github.com/google-research/timesfm). I am also working on making inference of LLMs >2x faster.
+I am a Staff Research Scientist at Google Research. I am excited about structured data foundation models and making + deploying them in real enterprise problems. Nowadays I spend most of my time thinking about the impending seismic shift in structured data prediction pipelines. I am one of the creators of [TimesFM](https://github.com/google-research/timesfm) and also the research lead of [TabFM](https://github.com/google-research/tabfm).
 
 I obtained my PhD from UT Austin in 2019 where I was fortunate to be advised by [Dr. Sanjay Shakkottai](http://users.ece.utexas.edu/~shakkott/Sanjay_Shakkottai/Contact.html). I also had the pleasure of working closely with [Dr. Alex Dimakis](http://users.ece.utexas.edu/~dimakis/), during my time at UT. I have worked on contextual bandits, extreme classification and black-box optimization.
 
