@@ -11,5 +11,6 @@ I obtained my PhD from UT Austin in 2019 where I was fortunate to be advised by 
 
 ## Updates
 
-**[Dec 31, 2024]** We just released [TimesFM-2.0](https://huggingface.co/collections/google/timesfm-release-66e4be5fdb56e960c1e482a6).\\
-**[Sep 25, 2024]** Our paper on [learning regression from batches](https://arxiv.org/pdf/2309.01973) has been accepted as spotlight in NeurIPS 2024.
+**[Sep 24, 2026]** Our paper [Rethinking Post-Training Recipes for Multimodal Time-Series Forecasting](https://arxiv.org/abs/2605.29401), on post-training LLMs to revise TimesFM forecasts using multimodal context, has been accepted to NeurIPS 2026.\\
+**[Aug 31, 2026]** We released [TimesFM-3](https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/), our next-generation zero-shot foundation model natively pre-trained for multivariate time-series forecasting.\\
+**[Apr 30, 2026]** Our paper [Rethinking Multimodal Time-Series Forecasting Evaluation](https://arxiv.org/abs/2607.06973), introducing the TimesX multimodal time-series forecasting benchmark, has been accepted to ICML 2026.
